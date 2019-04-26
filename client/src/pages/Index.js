@@ -1,12 +1,13 @@
 import React from "react";
-import LoginBox from "../components/LoginBox";
 
 export default class FrontPage extends React.Component {
   render() {
     return (
-      <div>
-        <LoginBox/>
-      </div>
+        <div class='videoBody'>
+          <video controlls autoplay loop>
+            <source id='homeVideo' src='../CK_Video/My Movie.mp4' alt='CK_vid' />
+          </video>
+        </div>
     )
   }
 }
