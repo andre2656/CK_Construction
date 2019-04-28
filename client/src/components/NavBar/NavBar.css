@@ -6,6 +6,37 @@
   color: black;
 }
 
-a {
-  padding: 5px;
+#navbar{
+    float: left;
+    position: relative;
+    margin-top: -8px;
+    align-content: right;
+    margin-left: 500px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 15px;
+     padding-left: 15px;
+    width: auto;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #00599c
+}
+ #page, .dropdown-toggle{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+#logo{
+    float: left;
+    position: absolute;
+    top: -40px;
+    left: 80px;
+    height: 125px;
+    width: auto;
 }
