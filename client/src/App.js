@@ -7,15 +7,12 @@ import Index from './pages/Index';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Services from './pages/Services';
-import Careers from './pages/Careerss';
+import Services from './pages/Services/Services';
+import Careers from './pages/Careers';
 import Steel from './pages/Steel';
 import Employees from './pages/Employees';
 
 
-/**
- * The main App component that holds our whole React app
- */
 class App extends Component {
   // state = { user: null }
 
