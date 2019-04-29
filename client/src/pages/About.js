@@ -39,11 +39,11 @@ class About extends React.Component {
                                     that keeps us in business. The foundation of our firm's service reputation and our dedication
                                     to our clients
                                     begins and ends with our core values: Consistency, Gratitude, Optimism, Respect and Teamwork.
-                    </p>
+                                </p>
                             </div>
                             <div id='CKCulture'>
                                 {/* <!-- add an image of good team work and smiles lol --> */}
-                </div>
+                            </div>
                             <div id='safety'>
                                 <h3>Saftey</h3>
                                 <p>
@@ -53,7 +53,7 @@ class About extends React.Component {
                                     the strictest of safety guidelines and protocols on all of our projects,
                                     regardless of size. For us, making a profit is less important than keeping
                                     our employees, subcontractors, and clients safe and finishing a successful project.
-                    </p>
+                                </p>
                             </div>
                         </div>
                     </div>
