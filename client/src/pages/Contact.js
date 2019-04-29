@@ -71,6 +71,56 @@ class Contact extends React.Component {
                     </div>
                     <button type= 'submit' onClick= {this.handleSubmit}>Submit</button>
                 </form>
+
+                <h3>CK OFFICE: CK Construction & Service Corp	</h3> 	 	 	 
+                <p>619 N 2000 W  Ogden, UT  84404 <br/>	 	 	 
+                    801-731-0717<br />	 	 	 	 
+                    info@cksrvs.com<br />
+                </p>	 	 	 
+                                                    
+                <h3>STEEL DIVISION	 </h3>	 	 	 	 	 	 	 	 	 
+                <p><strong>Project Manager:</strong> Rob Checketts Owner - President <br/> 
+                    & Estimating/Scheduling	 	 	 	801-731-0717 	 robc@cksrvs.com	 <br /> 	 	 	 
+                    <strong>Job Superintendent:</strong> Jesus Garcia	<br />  	 	 	 	 
+                                    801-731-0717	jgarcia@cksrvs.com	<br />  	 	 	 
+                </p>   
+
+
+                <h3> SERVICES/CONSTRUCTION DIVISION	</h3> 	 	 	 	 	 	 
+                <p><strong>Project Manager:</strong>
+                Ryan Shurtleff	 	 	 	Services - Vice President& Estimating/Scheduling	 
+                801-731-0717                 rshurtleff@cksrvs.com	 	 	 	 
+                <strong>Job Superintendent:</strong> Chris Kent	 	 	 	 	 
+                    801-731-0717	 	 	 	 
+                    ckent@cksrvs.com 	
+                </p>	 	 		 
+                     	 	 	 
+                                                    
+                <h3>OFFICE</h3> 	
+                    
+                <p><strong>Controller:</strong> Jan Checketts	 	 	 	 	 
+                801-731-0717	 	ext 1		 
+                jan@cksrvs.com 	 	 	 	 
+                                                    
+                   <strong>Accounting:</strong>  AR & AP	 	 	 	ap@cksrvs.com	 	 	 	 
+                                                     
+                   <strong>Office & Projects Assistant:</strong> Colette Smith	 	 	 	 	 
+                    	 	 	 	801-731-0717 ext 2 (receptionist)
+                                    csmith@cksrvs.com	 	 	 	 
+                 </p>                                   
+                <h3>Will work in the following states:</h3>	 	 				
+                    <p>
+                    <strong>Utah, Neveda, Idaho, Arizona, Wyoming, Colorado</strong>	 	 	 				
+                    
+                    </p>	 	 	 				
+                    <h3>Licenses:</h3>	 	 	 				
+                    <p>
+                    Utah: License #10362572-5501 B 100	 	 	 				
+                    Neveda: #0060099 B General Building, #0079008 C-14 Steel Reinforcing & Erection	 	 	 				
+                    Idaho: #RCE-12604 Contractor	 	 	 				
+                    Arizona: #ROC 310308  B-1
+                    </p>	 	 	 		
+
             </div>
         )
     }

@@ -1,9 +1,7 @@
 import React from 'react';
 
 class Careers extends React.Component {
-    state= {
-        jobs: ''
-    }
+ 
     render() {
         return (
             <div className='container'>
@@ -26,10 +24,6 @@ class Careers extends React.Component {
                 </div>
                 <div className='row'>
                 Download: Employment_Application.pdf
-                </div>
-
-                <div className= 'row'>
-                    CURRENTLY HIRING FOR: {this.state.jobs}
                 </div>
             </div>
         )
