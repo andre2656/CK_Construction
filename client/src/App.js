@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
 import Index from './pages/Index';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import Services from './pages/Services/Index';
 import Careers from './pages/Careers';
 import Steel from './pages/Steel';
-import Employees from './pages/Employees';
+// import Employees from './pages/Employees';
 
 
 class App extends Component {
@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Header />
+          <Header/>
           <Route exact path="/" component={Index} />
           <Route exact path="/Home" component={Home} />
           <Route exact path="/About" component={About} />
@@ -45,8 +45,8 @@ class App extends Component {
           <Route exact path="/Services" component={Services} />
           <Route exact path="/Careers" component={Careers} />
           <Route exact path="/Steel" component={Steel} />
-          <Route exact path="/Employees" component={Employees} />
-          <Footer />
+          {/* <Route exact path="/Employees" component={Employees} /> */}
+          <Footer/>
         </div>
       </Router>
     );

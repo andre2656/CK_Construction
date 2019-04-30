@@ -20,7 +20,7 @@ function NavBar() {
           <NavLink id='page' to="About" activeClassName="selected">About</NavLink><strong>|</strong>
           <NavLink id='page' to="Portfolio" activeClassName="selected">Portfolio</NavLink><strong>|</strong>
           <div className="dropdown show">
-            <div id='page' className="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"> Steel </div>
+            <div id='page' className="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"> Divisions </div>
             <div id='page' className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <NavLink className="dropdown-item" to="Steel-Division" activeClassName="selected">Steel Division</NavLink>
               <NavLink className="dropdown-item" to="Service-Construction" activeClassName="selected">Service/Construction </NavLink>

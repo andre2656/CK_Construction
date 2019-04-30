@@ -12,7 +12,7 @@ class Steel extends React.Component {
                     </p>
                 </div>
                 <div classname='row'>
-                    <p>CK Construction is more than a General Contractor and Construction Manager.
+                    <p>CK Construction is more than a Construction Manager.
                        We have full time Steel Erection Crews that specialize in steel projects from complicated components and steel systems, Pre-Engineered Metal Buildings, Seismic Upgrades and more....
                     </p>
                 </div>
