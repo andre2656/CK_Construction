@@ -7,7 +7,7 @@ import Index from './pages/Index';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Services from './pages/Services/Services';
+import Services from './pages/Services/Index';
 import Careers from './pages/Careers';
 import Steel from './pages/Steel';
 import Employees from './pages/Employees';

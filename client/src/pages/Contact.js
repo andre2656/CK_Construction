@@ -10,16 +10,16 @@ class Contact extends React.Component {
     }
     
     nameOnChange = (event) => {
-        this.state({ name: event.target.value.trim() })
+        this.setState({ name: event.target.value.trim() })
     }
     emailOnChange = (event) => {
-        this.state({ email: event.target.value.trim() })
+        this.setState({ email: event.target.value.trim() })
     }
     phoneOnChange = (event) => {
-        this.state({ phone: event.target.value.trim() })
+        this.setState({ phone: event.target.value.trim() })
     }
     messageOnChange = (event) => {
-        this.state({ message: event.target.value.trim()})
+        this.setState({ message: event.target.value.trim()})
     }
     handleSubmit = () => {
         if (this.isFormValid()){
@@ -56,7 +56,16 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
+                <br/>
+                <br />
+                <h3>CK Construction & Service Corp	</h3>
+
+                <p>619 N 2000 W  Ogden, UT  84404 <br />
+                    Phone: 801-731-0717<br />
+                    Email: info@cksrvs.com<br />
+                </p>
                 <form>
+                    <h4>Quick submit</h4>
                     <div className= 'row'>
                         <input name='Name' type='text' placeholder='Name' onChange= {this.nameOnChange}/>
                     </div>
@@ -72,42 +81,67 @@ class Contact extends React.Component {
                     <button type= 'submit' onClick= {this.handleSubmit}>Submit</button>
                 </form>
 
-                <h3>CK OFFICE: CK Construction & Service Corp	</h3> 	 	 	 
-                <p>619 N 2000 W  Ogden, UT  84404 <br/>	 	 	 
-                    801-731-0717<br />	 	 	 	 
-                    info@cksrvs.com<br />
-                </p>	 	 	 
-                                                    
-                <h3>STEEL DIVISION	 </h3>	 	 	 	 	 	 	 	 	 
-                <p><strong>Project Manager:</strong> Rob Checketts Owner - President <br/> 
-                    & Estimating/Scheduling	 	 	 	801-731-0717 	 robc@cksrvs.com	 <br /> 	 	 	 
-                    <strong>Job Superintendent:</strong> Jesus Garcia	<br />  	 	 	 	 
-                                    801-731-0717	jgarcia@cksrvs.com	<br />  	 	 	 
-                </p>   
-
-
-                <h3> SERVICES/CONSTRUCTION DIVISION	</h3> 	 	 	 	 	 	 
-                <p><strong>Project Manager:</strong>
-                Ryan Shurtleff	 	 	 	Services - Vice President& Estimating/Scheduling	 
-                801-731-0717                 rshurtleff@cksrvs.com	 	 	 	 
-                <strong>Job Superintendent:</strong> Chris Kent	 	 	 	 	 
-                    801-731-0717	 	 	 	 
-                    ckent@cksrvs.com 	
-                </p>	 	 		 
-                     	 	 	 
-                                                    
-                <h3>OFFICE</h3> 	
-                    
-                <p><strong>Controller:</strong> Jan Checketts	 	 	 	 	 
-                801-731-0717	 	ext 1		 
-                jan@cksrvs.com 	 	 	 	 
-                                                    
-                   <strong>Accounting:</strong>  AR & AP	 	 	 	ap@cksrvs.com	 	 	 	 
-                                                     
-                   <strong>Office & Projects Assistant:</strong> Colette Smith	 	 	 	 	 
-                    	 	 	 	801-731-0717 ext 2 (receptionist)
-                                    csmith@cksrvs.com	 	 	 	 
-                 </p>                                   
+                <h4>STEEL DIVISION</h4>	 
+                <div className= 'row'>
+                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                        <div className="card-header"><strong>Project Manager:</strong><br /> Rob Checketts</div>
+                        <div className="card-body">
+                            <p className="card-title">Owner - President & Estimating/Scheduling</p>
+                            <p className="card-text">Phone: 801-731-0717</p>
+                            <p className="card-text">Email: robc@cksrvs.com</p>
+                        </div>
+                    </div>
+                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                        <div className="card-header"><strong>Job Superintendent:</strong><br /> Jesus Garcia</div>
+                        <div className="card-body">
+                            <p className="card-text">Phone: 801-731-0717</p>
+                            <p className="card-text">Email: jgarcia@cksrvs.com</p>
+                        </div>
+                    </div>  
+                </div>	
+                <h4> SERVICES/CONSTRUCTION DIVISION	</h4> 	
+                <div className='row'>
+                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                        <div className="card-header"><strong>Project Manager:</strong><br /> Ryan Shurtleff</div>
+                        <div className="card-body">
+                            <p className="card-title">Services - Vice President & Estimating/Scheduling</p>
+                            <p className="card-text">Phone: 801-731-0717</p>
+                            <p className="card-text">Email: rshurtleff@cksrvs.com</p>
+                        </div>
+                    </div>
+                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                        <div className="card-header"><strong>Job Superintendent:</strong><br /> Chris Kent</div>
+                        <div className="card-body">
+                            <p className="card-text" type= 'number'>Phone: 801-731-0717</p>
+                            <p className="card-text" type= 'email'>Email: ckent@cksrvs.com</p>
+                        </div>
+                    </div>
+                </div> 	 	                              
+                <h4>OFFICE</h4> 	
+                <div className='row'>
+                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                        <div className="card-header"><strong>Controller:</strong><br /> Jan Checketts</div>
+                        <div className="card-body">
+                            <p className="card-title">Owner - President & Estimating/Scheduling</p>
+                            <p className="card-text">Phone: 801-731-0717 ext. 1</p>
+                            <p className="card-text">Email: jan@cksrvs.com </p>
+                        </div>
+                    </div>
+                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                        <div className="card-header"><strong>Office and Projects Assistant</strong> <br/> Colette Smith</div>
+                        <div className="card-body">
+                            <p className="card-text">Phone: 801-731-0717 ext 2 (receptionist)</p>
+                            <p className="card-text">Email: csmith@cksrvs.com </p>
+                        </div>
+                    </div>
+                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                        <div className="card-header"> <strong>Accounting:</strong><br /> AR & AP</div>
+                        <div className="card-body">
+                            <p className="card-text">Phone: 801-731-0717</p>
+                            <p className="card-text">Email: ap@cksrvs.com</p>
+                        </div>
+                    </div>
+                </div>	                                 
                 <h3>Will work in the following states:</h3>	 	 				
                     <p>
                     <strong>Utah, Neveda, Idaho, Arizona, Wyoming, Colorado</strong>	 	 	 				
@@ -115,10 +149,10 @@ class Contact extends React.Component {
                     </p>	 	 	 				
                     <h3>Licenses:</h3>	 	 	 				
                     <p>
-                    Utah: License #10362572-5501 B 100	 	 	 				
-                    Neveda: #0060099 B General Building, #0079008 C-14 Steel Reinforcing & Erection	 	 	 				
-                    Idaho: #RCE-12604 Contractor	 	 	 				
-                    Arizona: #ROC 310308  B-1
+                    <strong>Utah:</strong> License #10362572-5501 B 100	<br/>	 	 				
+                    <strong>Neveda:</strong> #0060099 B General Building, #0079008 C-14 Steel Reinforcing and Erection	<br /> 	 	 				
+                    <strong>Idaho:</strong> #RCE-12604 Contractor<br />
+                    <strong>Arizona:</strong> #ROC 310308  B-1<br />
                     </p>	 	 	 		
 
             </div>
