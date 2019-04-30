@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-PerformedServices = () => {
+const PerformedServices = () => {
     return (
         <div>
             <h3>Self Preformed Services</h3>

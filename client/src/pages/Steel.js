@@ -5,7 +5,7 @@ class Steel extends React.Component {
         return (
             <div className='container'>
                 <div classname='row'>
-                    <h2>STEEL STRUCTURES</h2>
+                    <h3>STEEL STRUCTURES</h3>
                 </div>
                 <div classname='row'>
                     <p>From simple structures to complicated components and steel systems, CK Construction has experience and can do it all !!
@@ -27,13 +27,13 @@ class Steel extends React.Component {
                     Fax: 801-732-8956<br />
                 </div>
                 <div className='row'>
-                    <p>Pre-Engineered to fit your application and budget.
-                    Since we are licensed in 11 western states, we understand the ins and outs of local building codes and can help our clients interested in metal buildings to select the right materials for the project.
+                    <h5>Pre-Engineered to fit your application and budget.</h5>
+                    <p>Since we are licensed in 11 western states, we understand the ins and outs of local building codes and can help our clients interested in metal buildings to select the right materials for the project.
                     </p>
                 </div>
                 <div classname='row'>
-                    <p>Metal Buildings don't have to be Boxes.
-                       Thanks to cost-effectiveness and fire-resistance as well as some serious strength, the metal building construction industry is growing faster than any other type of construction, and provides a great solution to almost any construction problem.
+                    <h5>Metal Buildings don't have to be Boxes.</h5>
+                       <p>Thanks to cost-effectiveness and fire-resistance as well as some serious strength, the metal building construction industry is growing faster than any other type of construction, and provides a great solution to almost any construction problem.
                     </p>
                 </div>
             </div>

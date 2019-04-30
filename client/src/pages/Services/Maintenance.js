@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-Maintenance = () => {
+const Maintenance = () => {
     return(
         <div>
             <h3>Mainternace</h3>

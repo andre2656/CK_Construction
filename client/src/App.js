@@ -10,28 +10,11 @@ import Contact from './pages/Contact';
 import Services from './pages/Services/Index';
 import Careers from './pages/Careers';
 import Steel from './pages/Steel';
+import Portfolio from './pages/Portfolio'
 // import Employees from './pages/Employees';
 
 
 class App extends Component {
-  // state = { user: null }
-
-  // componentDidMount() {
-  //   console.log("componentDidMount");
-  //   loginController.addUserChangedListener(this.setUser);
-
-  //   loginController.recheckLogin();
-  // }
-
-  // componentWillUnmount() {
-  //   console.log("WillUnmount");
-  //   loginController.removeUserChangedListener(this.setUser);
-  // }
-
-  // setUser = (user) => {
-  //   console.log("setUser", user);
-  //   this.setState({ user: user });
-  // }
 
   render() {
     return (
@@ -45,6 +28,7 @@ class App extends Component {
           <Route exact path="/Services" component={Services} />
           <Route exact path="/Careers" component={Careers} />
           <Route exact path="/Steel" component={Steel} />
+          <Route exact path="/Portfolio" component={Portfolio}/>
           {/* <Route exact path="/Employees" component={Employees} /> */}
           <Footer/>
         </div>

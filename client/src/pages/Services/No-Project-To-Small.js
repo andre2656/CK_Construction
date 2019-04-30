@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-ProjectSmall = () => {
+const ProjectSmall = () => {
     return (
         <div>
             <h3>No Project To Small</h3>

@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-CKServices = () => {
+const CKServices = () => {
     return (
         <div>
             <h3>CK Services</h3>
