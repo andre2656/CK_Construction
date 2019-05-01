@@ -4,6 +4,7 @@ import CKServices from './CK-Services';
 import Maintenance from './Maintenance';
 import NoProjectToSmall from './No-Project-To-Small';
 import SelfPerformedServices from './Self-Performed-Services';
+import Remodels from './Remodels'
 import Nav from './Nav'
 
 class Services extends React.Component {
@@ -13,7 +14,7 @@ class Services extends React.Component {
                 <Router>
                     <Nav />
                     <Route path="/CK-Services" component={CKServices} />
-                    <Route path="/Remodels" component={CKServices} />
+                    <Route path="/Remodels" component={Remodels} />
                     <Route path="/Maintenance" component={Maintenance} />
                     <Route path="/No-Project-to-Small" component={NoProjectToSmall} />
                     <Route path="/Self-Performed-Services" component={SelfPerformedServices} />
