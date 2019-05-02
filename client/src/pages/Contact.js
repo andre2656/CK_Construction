@@ -146,44 +146,57 @@ class Contact extends React.Component {
                     </div>
                     <div className='col-md-1'></div>
                 </div>
-                <h4>OFFICE</h4>
                 <div className='row'>
-                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                        <div className="card-header"><strong>Controller:</strong><br /> Jan Checketts</div>
-                        <div className="card-body">
-                            <p className="card-title">Owner - President & Estimating/Scheduling</p>
-                            <p className="card-text">Phone: 801-731-0717 ext. 1</p>
-                            <p className="card-text">Email: jan@cksrvs.com </p>
+                    <div className='col-md-4'>
+                        <h4>OFFICE</h4>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-md-4'>
+                        <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                            <div className="card-header"><strong>Controller:</strong><br /> Jan Checketts</div>
+                            <div className="card-body">
+                                <p className="card-title">Owner - President & Estimating/Scheduling</p>
+                                <p className="card-text">Phone: 801-731-0717 ext. 1</p>
+                                <p className="card-text">Email: jan@cksrvs.com </p>
+                            </div>
                         </div>
                     </div>
-                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                        <div className="card-header"><strong>Office and Projects Assistant</strong> <br /> Colette Smith</div>
-                        <div className="card-body">
-                            <p className="card-text">Phone: 801-731-0717 ext 2 (receptionist)</p>
-                            <p className="card-text">Email: csmith@cksrvs.com </p>
+                    <div className='col-md-4'>
+                        <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                            <div className="card-header"><strong>Office and Projects Assistant</strong> <br /> Colette Smith</div>
+                            <div className="card-body">
+                                <p className="card-text">Phone: 801-731-0717 ext 2 (receptionist)</p>
+                                <p className="card-text">Email: csmith@cksrvs.com </p>
+                            </div>
                         </div>
                     </div>
-                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                        <div className="card-header"> <strong>Accounting:</strong><br /> AR & AP</div>
-                        <div className="card-body">
-                            <p className="card-text">Phone: 801-731-0717</p>
-                            <p className="card-text">Email: ap@cksrvs.com</p>
+                    <div className='col-md-4'>
+                        <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                            <div className="card-header"> <strong>Accounting:</strong><br /> AR & AP</div>
+                            <div className="card-body">
+                                <p className="card-text">Phone: 801-731-0717</p>
+                                <p className="card-text">Email: ap@cksrvs.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <h3>Will work in the following states:</h3>
-                <p>
-                    <strong>Utah, Neveda, Idaho, Arizona, Wyoming, Colorado</strong>
 
-                </p>
-                <h3>Licenses:</h3>
-                <p>
-                    <strong>Utah:</strong> License #10362572-5501 B 100	<br />
-                    <strong>Neveda:</strong> #0060099 B General Building, #0079008 C-14 Steel Reinforcing and Erection	<br />
-                    <strong>Idaho:</strong> #RCE-12604 Contractor<br />
-                    <strong>Arizona:</strong> #ROC 310308  B-1<br />
-                </p>
-
+                <div className= 'row'>
+                    <h3>Will work in the following states:</h3> <br/>
+                    <p className= 'col-md-5'>
+                        <strong>Utah, Neveda, Idaho, Arizona, Wyoming, Colorado</strong>
+                    </p>
+                </div>
+               <div className= 'row'>
+                    <h3>Licenses:</h3>
+                    <p className="col-md-5">
+                        <strong>Utah:</strong> License #10362572-5501 B 100	<br />
+                        <strong>Neveda:</strong> #0060099 B General Building, #0079008 C-14 Steel Reinforcing and Erection	<br />
+                        <strong>Idaho:</strong> #RCE-12604 Contractor<br />
+                        <strong>Arizona:</strong> #ROC 310308  B-1<br />
+                    </p>
+               </div>
             </div>
         )
     }
