@@ -117,23 +117,34 @@ class Contact extends React.Component {
                     <div className='col-md-1'></div>
                 </div>
 
-                <h4> SERVICES/CONSTRUCTION DIVISION	</h4>
                 <div className='row'>
-                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                        <div className="card-header"><strong>Project Manager:</strong><br /> Ryan Shurtleff</div>
-                        <div className="card-body">
-                            <p className="card-title">Services - Vice President & Estimating/Scheduling</p>
-                            <p className="card-text">Phone: 801-731-0717</p>
-                            <p className="card-text">Email: rshurtleff@cksrvs.com</p>
+                    <div className='col-md-5'>
+                        <h4> SERVICES/CONSTRUCTION DIVISION	</h4>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-md-1'></div>
+                    <div className='col-md-4'>
+                        <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                            <div className="card-header"><strong>Project Manager:</strong><br /> Ryan Shurtleff</div>
+                            <div className="card-body">
+                                <p className="card-title">Services - Vice President & Estimating/Scheduling</p>
+                                <p className="card-text">Phone: 801-731-0717</p>
+                                <p className="card-text">Email: rshurtleff@cksrvs.com</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                        <div className="card-header"><strong>Job Superintendent:</strong><br /> Chris Kent</div>
-                        <div className="card-body">
-                            <p className="card-text" type='number'>Phone: 801-731-0717</p>
-                            <p className="card-text" type='email'>Email: ckent@cksrvs.com</p>
+                    <div className='col-md-2'></div>
+                    <div className='col-md-4'>
+                        <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
+                            <div className="card-header"><strong>Job Superintendent:</strong><br /> Chris Kent</div>
+                            <div className="card-body">
+                                <p className="card-text" type='number'>Phone: 801-731-0717</p>
+                                <p className="card-text" type='email'>Email: ckent@cksrvs.com</p>
+                            </div>
                         </div>
                     </div>
+                    <div className='col-md-1'></div>
                 </div>
                 <h4>OFFICE</h4>
                 <div className='row'>
