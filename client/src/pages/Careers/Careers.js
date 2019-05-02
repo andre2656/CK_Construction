@@ -24,7 +24,7 @@ class Careers extends React.Component {
                 </p>
                 </div>
                 <div className='row'>
-                    <a href='./CK-Construction-Application-of-Employment.pdf' download>Download Application</a>
+                    <a className= 'btn btn-drk' href='./CK-Construction-Application-of-Employment.pdf' download>Download Application</a>
                 </div>
             </div>
         )

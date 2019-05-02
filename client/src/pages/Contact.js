@@ -55,31 +55,38 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className= 'container'>
                 <br/>
                 <br />
-                <h3>CK Construction & Service Corp	</h3>
+                <div className= 'row'>
+                    <h3>CK Construction & Service Corp	</h3> <br/>
 
-                <p>619 N 2000 W  Ogden, UT  84404 <br />
-                    Phone: 801-731-0717<br />
-                    Email: info@cksrvs.com<br />
-                </p>
-                <form>
-                    <h4>Quick submit</h4>
-                    <div className= 'row'>
-                        <input name='Name' type='text' placeholder='Name' onChange= {this.nameOnChange}/>
+                    <p className= 'col-md-4'>619 N 2000 W  Ogden, UT  84404 <br />
+                        Phone: 801-731-0717<br />
+                        Email: info@cksrvs.com<br />
+                    </p>
+                </div>
+                <div className= 'row'>
+                    <div className= 'col-md-6'>
+                        <form>
+                            <h4>Quick submit</h4>
+                            <div className='row'>
+                                <input name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
+                            </div>
+                            <div className='row'>
+                                <input name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
+                            </div>
+                            <div className='row'>
+                                <input name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
+                            </div>
+                            <div className='row'>
+                                <textarea name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
+                            </div>
+                            <button type='submit' onClick={this.handleSubmit}>Submit</button>
+                        </form>
                     </div>
-                    <div className='row'>
-                        <input name='Email' type='email' placeholder='Email' onChange={this.emailOnChange}/>
-                    </div>
-                    <div className='row'>
-                        <input name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange}/>
-                    </div>
-                    <div className='row'>
-                        <textarea name='Message' type='text' placeholder='Message' onChange={this.messageOnChange}/>
-                    </div>
-                    <button type= 'submit' onClick= {this.handleSubmit}>Submit</button>
-                </form>
+                </div>
+                
 
                 <h4>STEEL DIVISION</h4>	 
                 <div className= 'row'>
