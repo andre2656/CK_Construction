@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services/Index';
-import Careers from './pages/Careers';
+import Careers from './pages/Careers/Careers';
 import Steel from './pages/Steel';
 import Portfolio from './pages/Portfolio'
 // import Employees from './pages/Employees';
