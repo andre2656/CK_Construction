@@ -19,8 +19,9 @@ class Careers extends React.Component {
                 </p>
                 </div>
                 <div className='row'>
-                    Friends don’t let friends work for anybody else.
+                <p>Friends don’t let friends work for anybody else.
                     Competitive wages, benefits, ongoing training and plenty of vacation time. Do you really need another reason? Click on the link to download an application.
+                </p>
                 </div>
                 <div className='row'>
                 Download: Employment_Application.pdf
