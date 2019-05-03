@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default Saftey = () => {
+const Saftey = () => {
     return(
         <div className='container'>
             <div className='row'>
@@ -22,3 +22,4 @@ export default Saftey = () => {
        
     )
 }
+export default Saftey

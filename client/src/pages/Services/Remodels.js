@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-Remodels = () => {
+const Remodels = () => {
     return (
         <div classNam='container'>
             <div className='row'>

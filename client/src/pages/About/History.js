@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default History = () => {
+const History = () => {
     return (
         <div className='container'>
             <div className='row'>
@@ -26,9 +26,8 @@ export default History = () => {
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>   
     )
-
 }
+export default History;
 

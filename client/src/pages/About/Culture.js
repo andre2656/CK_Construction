@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default Culture = () => {
+const Culture = () => {
     return(
         <div className= 'container'>
             <div className= 'row'>
@@ -14,3 +14,4 @@ export default Culture = () => {
         
     )
 }
+export default Culture;
