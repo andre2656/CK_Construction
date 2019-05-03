@@ -24,6 +24,7 @@ body {
 #openText{
     position: relative;
     z-index: 1;
+    font-weight:  bold;
 }
 
 
@@ -45,21 +46,23 @@ video{
     height: auto;
     padding-bottom:50px;
     width: 90%;
-    background-color: #b3b3b3;
     opacity: 1;
     display: block;
-    border: 10px solid #00599c;
-    border-radius: 20px;
 }
 #homeCarousel{
-    width: 98%;
+    width: 85%;
     height: auto;
-    border: solid 10px black;
     margin-top: 25px;
     position: relative;
     z-index: 2;
-    border-radius: 20px;
 
+}
+#openText{
+    position: relative;
+    top: -175px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: .75
 }
 #homeText{
     margin-bottom: 25px;
