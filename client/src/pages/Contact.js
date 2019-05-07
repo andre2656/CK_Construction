@@ -58,43 +58,47 @@ class Contact extends React.Component {
             <div className='container'>
                 <br />
                 <br />
-                <div className='row' id= "pagetitleContact">
+                <div className='row' id="pagetitleContact">
                     <div className='col-md-3'></div>
-                    <h3 id='pageTitleContact' className='col-md-6'><strong>CK Construction & Service Corp</strong></h3> 
+                    <h3 id='pageTitleContact' className='col-md-6'><strong>CK Construction & Service Corp</strong></h3>
                     <div className='col-md-3'></div>
                 </div>
-                <div className= 'row' id= 'CK_Contact'>
+                <div className='row' id='CK_Contact'>
                     <div className='col-md-1'></div>
-                    <h6 className='col-md-5'> <strong><h5>Address:</h5></strong> <a href='https://www.google.com/maps/dir//ck+construction+utah/@41.2183388,-112.053285,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87530e6b6d45261d:0x1f1636531a80735e!2m2!1d-112.0181798!2d41.2182796' target='_blank'>619 N 2000 W  Ogden, UT  84404</a> <br /><br />
-                        <strong><h5>Email:</h5></strong> <a href='mailto:info@cksrvs.com'>info@cksrvs.com</a><br /><br />
-                        <strong><h5>Phone:</h5></strong> 801-731-0717<br />
+                    <h6 className='col-md-5'>
+                        <h5 id='licensesContact'>Contact:</h5><br />
+                        <h6 id='licensesContact'><strong>Address:</strong> <a href='https://www.google.com/maps/dir//ck+construction+utah/@41.2183388,-112.053285,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87530e6b6d45261d:0x1f1636531a80735e!2m2!1d-112.0181798!2d41.2182796' target='_blank'>619 N 2000 W  Ogden, UT  84404</a></h6><br />
+                        <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:info@cksrvs.com'>info@cksrvs.com</a></h6><br />
+                        <h6 id='licensesContact'><strong>Phone:</strong> 801-731-0717</h6><br />
                     </h6>
                     <div className='col-md-1'></div>
-                    <div className='col-md-5'><div className='row'>
-                        <h5 className='col-md-12'>Will work in the following states:</h5> <br /> <br />
-                    </div>
+                    <div className='col-md-5'>
                         <div className='row'>
-                            <p className='col-md-12'>
+                            <h5 className='col-md-12' id='licensesContact'>Will work in the following states:</h5> <br />
+                        </div>
+                        <div className='row'>
+                            <p className='col-md-12' id='licensesContact'>
                                 <strong>Utah, Neveda, Idaho, Arizona, Wyoming, Colorado</strong>
                             </p>
                         </div>
                         <div className='row'>
-                            <h5 className='col-md-12'>Licenses:</h5>
+                            <h5 className='col-md-12' id='licensesContact'>Licenses:</h5>
                         </div>
                         <div className='row'>
-                            <p className="col-md-12">
+                            <p className="col-md-12" id='licensesContact'>
                                 <strong>Utah:</strong> License #10362572-5501 B 100	<br />
                                 <strong>Neveda:</strong> #0060099 B General Building, #0079008 C-14 Steel Reinforcing and Erection	<br />
                                 <strong>Idaho:</strong> #RCE-12604 Contractor<br />
                                 <strong>Arizona:</strong> #ROC 310308  B-1<br />
                             </p>
-                        </div></div>
+                        </div>
+                    </div>
                 </div>
-                <div className='row' id= 'formContact'>
+                <div className='row' id='formContact'>
                     <div className='col-md-12'>
-                        <form id= 'form'>
-                            <h3 id= 'formHeadingContact'>Quick Contact</h3>
-                            <br/>
+                        <form id='form'>
+                            <h3 id='formHeadingContact'>Quick Contact</h3>
+                            <br />
                             <div className='row'>
                                 <div className='col-md-1'></div>
                                 <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
@@ -105,30 +109,30 @@ class Contact extends React.Component {
                             <br /><br />
                             <div className='row'>
                                 <div className='col-md-1'></div>
-                                <input className='col-md-4' id='inputContact'name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
+                                <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
                                 <div className='col-md-2'></div>
                                 <input className='col-md-4' id='inputContact' name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
                                 <div className='col-md-1'></div>
                             </div>
-                            <br /><br /><br/>
+                            <br /><br /><br />
                             <div className='row'>
                                 <div className='col-md-1'></div>
                                 <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
                                 <div className='col-md-4'><button type='submit' id="submitContact" onClick={this.handleSubmit}><h4>Submit</h4></button></div>
                             </div>
                             <br /><br />
-                            
+
                             <br /><br />
                         </form>
                     </div>
                 </div>
 
-                <div className='row' id= 'titleRowContact'>
+                <div className='row' id='titleRowContact'>
                     <div className='col-md-12'>
                         <h4 id='titleContact'>STEEL DIVISION</h4>
                     </div>
                 </div>
-                <div className='row' id= 'cardRowContact'>
+                <div className='row' id='cardRowContact'>
                     <div className='col-md-1'></div>
                     <div className='col-md-4'>
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
@@ -217,6 +221,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className= 'ContactPadding'></div>
             </div>
         )
     }

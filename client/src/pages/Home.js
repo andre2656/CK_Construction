@@ -10,11 +10,6 @@ class Home extends React.Component {
                         <div className='row'>
                             <div className='col-lg-12'>
                                 <div id="homeCarousel" className="carousel slide mx-auto" data-ride="carousel">
-                                    <ol className="carousel-indicators">
-                                        <li data-target="#homeCarousel" data-slide-to="0" className="active"></li>
-                                        <li data-target="#homeCarousel" data-slide-to="1"></li>
-                                        <li data-target="#homeCarousel" data-slide-to="2"></li>
-                                    </ol>
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                             <img className="d-block w-100" src="../CK_Images/homeCarousel1.jpg" alt="First slide" />
@@ -35,14 +30,15 @@ class Home extends React.Component {
                                         <span className="sr-only">Next</span>
                                     </a>
                                     <div className='col-lg-8 mx-auto'>
-                                        <p id='openText'>
+                                        <div id='openText'>
                                             <h3><strong>Count on us!</strong></h3>
-                                            At CK Construction, the quality of our relationships is important to us, not the quantity.
+                                            <p>At CK Construction, the quality of our relationships is important to us, not the quantity.
                                             That’s why we do whatever it takes to make sure our clients are happy with our work;
                                             The greatest profit we can earn on a project is a referral.
                                             CK will change the way you think about construction.
                                             After all, it truly is the thought that counts.
-                                         </p>
+                                            </p>
+                                         </div>
                                     </div>
                                 </div>
                             </div>
