@@ -59,58 +59,63 @@ class Contact extends React.Component {
                 <br />
                 <br />
                 <div className='row'>
-                    <h3>CK Construction & Service Corp	</h3> <br />
+                    <h3 id= 'titleContact'>CK Construction & Service Corp	</h3> 
 
-                    <p className='col-md-4'>619 N 2000 W  Ogden, UT  84404 <br />
+                    <h6 className='col-md-4'>619 N 2000 W  Ogden, UT  84404 <br />
                         Phone: 801-731-0717<br />
                         Email: info@cksrvs.com<br />
-                    </p>
+                    </h6>
                 </div>
                 <div className='row'>
-                    <div className='col-md-6'>
+                    <div className='col-md-12'>
                         <form>
-                            <h4>Quick submit</h4>
+                            <h4 id='titleContact'>Quick submit</h4>
                             <div className='row'>
-                                <input name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
+                                <div className='col-md-2'></div>
+                                <input className='col-md-4' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
+                                <input className='col-md-4' name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
+                                <div className='col-md-2'></div>
                             </div>
                             <div className='row'>
-                                <input name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
+                                <div className='col-md-2'></div>
+                                <input className='col-md-4' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
+                                <input className='col-md-4' name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
+                                <div className='col-md-2'></div>
                             </div>
                             <div className='row'>
-                                <input name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
+                                <div className='col-md-3'></div>
+                                <textarea className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
+                                <div className='col-md-3'></div>
                             </div>
-                            <div className='row'>
-                                <textarea name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
-                            </div>
-                            <button type='submit' onClick={this.handleSubmit}>Submit</button>
+                            <button type='submit' onClick={this.handleSubmit}><h4>Submit</h4></button>
                         </form>
                     </div>
                 </div>
 
                 <div className='row'>
-                    <div className='col-md-5'>
-                        <h4>STEEL DIVISION</h4>
+                    <div className='col-md-12'>
+                        <h4 id='titleContact'>STEEL DIVISION</h4>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='col-md-1'></div>
                     <div className='col-md-4'>
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                            <div className="card-header"><strong>Project Manager:</strong><br /> Rob Checketts</div>
+                            <div className="card-header"><strong>Project Manager</strong><br /> Rob Checketts</div>
                             <div className="card-body">
                                 <p className="card-title">Owner - President & Estimating/Scheduling</p>
                                 <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text">Email: robc@cksrvs.com</p>
+                                <p className="card-text" >Email: <a href='mailto:robc@cksrvs.com'>robc@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-2'></div>
                     <div className='col-md-4'>
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                            <div className="card-header"><strong>Job Superintendent:</strong><br /> Jesus Garcia</div>
+                            <div className="card-header"><strong>Job Superintendent</strong><br /> Jesus Garcia</div>
                             <div className="card-body">
                                 <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text">Email: jgarcia@cksrvs.com</p>
+                                <p className="card-text" >Email: <a href='mailto:jgarcia@cksrvs.com'>jgarcia@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -118,47 +123,47 @@ class Contact extends React.Component {
                 </div>
 
                 <div className='row'>
-                    <div className='col-md-5'>
-                        <h4> SERVICES/CONSTRUCTION DIVISION	</h4>
+                    <div className='col-md-12'>
+                        <h4 id='titleContact'> SERVICES/CONSTRUCTION DIVISION	</h4>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='col-md-1'></div>
                     <div className='col-md-4'>
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                            <div className="card-header"><strong>Project Manager:</strong><br /> Ryan Shurtleff</div>
+                            <div className="card-header"><strong>Project Manager</strong><br /> Ryan Shurtleff</div>
                             <div className="card-body">
                                 <p className="card-title">Services - Vice President & Estimating/Scheduling</p>
                                 <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text">Email: rshurtleff@cksrvs.com</p>
+                                <p className="card-text" >Email: <a href='mailto:rshurtleff@cksrvs.com'>rshurtleff@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-2'></div>
                     <div className='col-md-4'>
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                            <div className="card-header"><strong>Job Superintendent:</strong><br /> Chris Kent</div>
+                            <div className="card-header"><strong>Job Superintendent</strong><br /> Chris Kent</div>
                             <div className="card-body">
                                 <p className="card-text" type='number'>Phone: 801-731-0717</p>
-                                <p className="card-text" type='email'>Email: ckent@cksrvs.com</p>
+                                <p className="card-text" type='email' >Email: <a href='mailto:ckent@cksrvs.com'>ckent@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-1'></div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-4'>
-                        <h4>OFFICE</h4>
+                    <div className='col-md-12'>
+                        <h4 id='titleContact'>OFFICE</h4>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='col-md-4'>
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                            <div className="card-header"><strong>Controller:</strong><br /> Jan Checketts</div>
+                            <div className="card-header"><strong>Controller</strong><br /> Jan Checketts</div>
                             <div className="card-body">
                                 <p className="card-title">Owner - President & Estimating/Scheduling</p>
                                 <p className="card-text">Phone: 801-731-0717 ext. 1</p>
-                                <p className="card-text">Email: jan@cksrvs.com </p>
+                                <p className="card-text" >Email: <a href='mailto:jan@cksrvs.com'>jan@cksrvs.com</a> </p>
                             </div>
                         </div>
                     </div>
@@ -167,30 +172,34 @@ class Contact extends React.Component {
                             <div className="card-header"><strong>Office and Projects Assistant</strong> <br /> Colette Smith</div>
                             <div className="card-body">
                                 <p className="card-text">Phone: 801-731-0717 ext 2 (receptionist)</p>
-                                <p className="card-text">Email: csmith@cksrvs.com </p>
+                                <p className="card-text" >Email: <a href='mailto:csmith@cksrvs.com'>csmith@cksrvs.com</a> </p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-4'>
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
-                            <div className="card-header"> <strong>Accounting:</strong><br /> AR & AP</div>
+                            <div className="card-header"> <strong>Accounting</strong><br /> AR & AP</div>
                             <div className="card-body">
                                 <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text">Email: ap@cksrvs.com</p>
+                                <p className="card-text" >Email: <a href='mailto:ap@cksrvs.com'>ap@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className= 'row'>
-                    <h3>Will work in the following states:</h3> <br/>
-                    <p className= 'col-md-5'>
+                    <h4 className='col-md-12'>Will work in the following states:</h4> <br/> <br/>
+                </div>
+                <div className='row'>
+                    <p className= 'col-md-12'>
                         <strong>Utah, Neveda, Idaho, Arizona, Wyoming, Colorado</strong>
                     </p>
                 </div>
                <div className= 'row'>
-                    <h3>Licenses:</h3>
-                    <p className="col-md-5">
+                    <h4 className= 'col-md-12'>Licenses:</h4>
+                </div>
+                <div className= 'row'>
+                    <p className="col-md-12">
                         <strong>Utah:</strong> License #10362572-5501 B 100	<br />
                         <strong>Neveda:</strong> #0060099 B General Building, #0079008 C-14 Steel Reinforcing and Erection	<br />
                         <strong>Idaho:</strong> #RCE-12604 Contractor<br />
