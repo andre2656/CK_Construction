@@ -9,7 +9,7 @@
 #navbar{
     float: left;
     position: relative;
-    margin-top: -8px;
+    margin-top: 8px;
     align-content: right;
     margin-left: 500px;
     background-color: #ffffff;
@@ -21,6 +21,9 @@
 }
 a{
     color: black;
+}
+a:active{
+    color: red
 }
 a:hover{
     color: #00599c

@@ -17,7 +17,7 @@ class Steel extends React.Component {
                     </p>
                 </div>
                 <div classname='row'>
-                    <p> className= 'col-md-6'If it’s got Steel – CK Steel can do the job.</p>
+                    <p className= 'col-md-6'> If it’s got Steel – CK Steel can do the job.</p>
                 </div>
                 <div classname='row'>
                     <div className= 'col-md-6'>

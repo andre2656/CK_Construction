@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LoganRiver = () => {
+const LovendahiRailServiceCenter = () => {
     return (
         <div>
             <div className='container'>
@@ -13,4 +13,4 @@ const LoganRiver = () => {
         </div>
     )
 }
-export default LoganRiver;
+export default LovendahiRailServiceCenter;
