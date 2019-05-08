@@ -34,7 +34,6 @@ video{
     margin: 10px;
     border: 10px #000 solid;
     border-radius: 10px
-
 }
 
 #blankSpace{
@@ -56,20 +55,17 @@ video{
     margin-bottom: -75px;
     position: relative;
     z-index: 2;
-    background-color: #1c1e25;
-    border-top: solid 7px #00599c;
-    border-bottom: solid 8px #1c1e25;
-    border-right: solid 8px #1c1e25;
-    border-left: solid 8px #1c1e25;
+    border: solid 10px #1c1e25;
+    border-radius: 5px;
 
 }
 #openText{
     position: absolute;
     top: -200px;
     background-color: white;
-    border-radius: 10px;
-    opacity: .75;
-    padding: 10px
+    border-radius: 5px;
+    opacity: .80;
+    padding: 5px;
 }
 #homeText{
     margin-bottom: 25px;
@@ -164,7 +160,7 @@ video{
     border-bottom: solid 8px #1c1e25;
     border-right: solid 8px #1c1e25;
     border-left: solid 8px #1c1e25;
-    width: 100%;
+    width: auto;
 }
 #titleContact{
     padding-bottom: 10px;
@@ -174,7 +170,6 @@ video{
     padding-bottom: 25px;
     border-bottom: 8px solid #1c1e25;
     width: 100%
-
 }
 #pageTitleContact{
     margin-top: 15px;
@@ -227,4 +222,17 @@ video{
 }
 #emailContact{
     color: #00599c
+}
+.footer{
+    background-image: linear-gradient(to top, #1c1e25 93%, #00599c 7%);
+    background-size: 100% 125px;
+    height: 125px;
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#carouselButtonsHome{
+    height: 30px;
+    width: 30px;
 }
