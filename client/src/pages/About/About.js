@@ -13,9 +13,9 @@ class About extends React.Component {
             <div>
                 <Router>
                     <Nav />
-                    <Route path="/History" component={History} />
-                    <Route path="/Culture" component={Culture} />
-                    <Route path="/Saftey" component={Saftey} />
+                    <Route exact path="/History" component={History} />
+                    <Route exact path="/Culture" component={Culture} />
+                    <Route exact path="/Saftey" component={Saftey} />
                 </Router>
             </div>
         )
