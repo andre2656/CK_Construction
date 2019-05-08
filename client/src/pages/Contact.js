@@ -66,7 +66,7 @@ class Contact extends React.Component {
                 <div className='row' id='CK_Contact'>
                     <div className='col-md-1'></div>
                     <h6 className='col-md-5'>
-                        <h5 id='licensesContact'>Contact:</h5><br />
+                        <h5 id='contactContact'>Contact:</h5><br />
                         <h6 id='licensesContact'><strong>Address:</strong> <a href='https://www.google.com/maps/dir//ck+construction+utah/@41.2183388,-112.053285,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87530e6b6d45261d:0x1f1636531a80735e!2m2!1d-112.0181798!2d41.2182796' target='_blank'>619 N 2000 W  Ogden, UT  84404</a></h6><br />
                         <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:info@cksrvs.com'>info@cksrvs.com</a></h6><br />
                         <h6 id='licensesContact'><strong>Phone:</strong> 801-731-0717</h6><br />
@@ -74,7 +74,7 @@ class Contact extends React.Component {
                     <div className='col-md-1'></div>
                     <div className='col-md-5'>
                         <div className='row'>
-                            <h5 className='col-md-12' id='licensesContact'>Will work in the following states:</h5> <br />
+                            <h5 className='col-md-12' id='contactContact'>Will work in the following states:</h5> <br />
                         </div>
                         <div className='row'>
                             <p className='col-md-12' id='licensesContact'>
@@ -82,7 +82,7 @@ class Contact extends React.Component {
                             </p>
                         </div>
                         <div className='row'>
-                            <h5 className='col-md-12' id='licensesContact'>Licenses:</h5>
+                            <h5 className='col-md-12' id='contactContact'>Licenses:</h5>
                         </div>
                         <div className='row'>
                             <p className="col-md-12" id='licensesContact'>

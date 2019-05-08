@@ -5,7 +5,9 @@ import Culture from './Culture';
 import Saftey from './Saftey';
 import Nav from './Nav'
 class About extends React.Component {
-
+    componentDidMount= () => {
+        
+    }
     render(){
         return(
             <div>

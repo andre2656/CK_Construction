@@ -187,7 +187,6 @@ video{
     border-right: 5px solid #1c1e25;
     border-top: solid 7px #00599c ;
     color: white;
-    margin-top: 25px;
 }
 #cardRowContact{
     padding-top: 50px;
@@ -216,6 +215,12 @@ video{
 }
 #licensesContact{
     text-align: left;
+    font-size: 16px;
+}
+#contactContact{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
 }
 .ContactPadding{
     padding-bottom: 50px
