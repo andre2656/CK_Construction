@@ -27,12 +27,17 @@ body {
     font-weight:  bold;
 }
 
-
+.videoBody{
+padding-top: 50px;
+background: #1c1e25;
+padding-bottom: 50px;
+}
 video{
-    width: 97%;
+    
+    width: 98%;
     height: auto;
     margin: 10px;
-    border: 10px #000 solid;
+    border: 4px black solid;
     border-radius: 10px
 }
 
@@ -54,8 +59,8 @@ video{
     margin-top: 25px;
     margin-bottom: -75px;
     position: relative;
-    z-index: 2;
-    border: solid 10px #1c1e25;
+    z-index: 1;
+    border: solid 4px #1c1e25;
     border-radius: 15px;
 
 }
@@ -246,7 +251,4 @@ video{
 }
 #aboutPage{
     margin-bottom: 700px;
-}
-.page:active{
-    color: red;
 }

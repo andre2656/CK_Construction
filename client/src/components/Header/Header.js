@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../NavBar/index'
+import { NavLink } from 'react-router-dom';
 class Header extends React.Component {
 
 
@@ -8,7 +9,7 @@ class Header extends React.Component {
             <div className="header">
                 <div className='jumbotron'>
                     <div className='row'>
-                        <div className='col-sm-2'><button id='videoPage' to= '/'><img id='logo' src='../CK_Images/logo-Title.jpg' alt='logo' /></button></div>
+                        <div className='col-sm-2'><NavLink id='videoPage' to= '/'><img id='logo' src='../CK_Images/logo-Title.jpg' alt='logo' /></NavLink></div>
                     </div>
                     <NavBar />
                 </div>
