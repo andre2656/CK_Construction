@@ -140,7 +140,7 @@ class Contact extends React.Component {
                             <div className="card-body">
                                 <p className="card-title">Owner - President & Estimating/Scheduling</p>
                                 <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text" >Email: <a href='mailto:robc@cksrvs.com'>robc@cksrvs.com</a></p>
+                                <p className="card-text" >Email: <a href='mailto:robc@cksrvs.com' id='emailContact'>robc@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -149,8 +149,8 @@ class Contact extends React.Component {
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
                             <div className="card-header"><strong>Job Superintendent</strong><br /> Jesus Garcia</div>
                             <div className="card-body">
-                                <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text" >Email: <a href='mailto:jgarcia@cksrvs.com'>jgarcia@cksrvs.com</a></p>
+                                <p className="card-text" style={{ paddingTop: '20px' }}>Phone: 801-731-0717</p>
+                                <p className="card-text" >Email: <a href='mailto:jgarcia@cksrvs.com' id='emailContact'>jgarcia@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ class Contact extends React.Component {
                             <div className="card-body">
                                 <p className="card-title">Services - Vice President & Estimating/Scheduling</p>
                                 <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text" >Email: <a href='mailto:rshurtleff@cksrvs.com'>rshurtleff@cksrvs.com</a></p>
+                                <p className="card-text" >Email: <a href='mailto:rshurtleff@cksrvs.com' id='emailContact'>rshurtleff@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -179,8 +179,8 @@ class Contact extends React.Component {
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
                             <div className="card-header"><strong>Job Superintendent</strong><br /> Chris Kent</div>
                             <div className="card-body">
-                                <p className="card-text" type='number'>Phone: 801-731-0717</p>
-                                <p className="card-text" type='email' >Email: <a href='mailto:ckent@cksrvs.com'>ckent@cksrvs.com</a></p>
+                                <p className="card-text" type='number' style={{ paddingTop: '20px' }}>Phone: 801-731-0717</p>
+                                <p className="card-text" type='email' >Email: <a href='mailto:ckent@cksrvs.com' id='emailContact'>ckent@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@ class Contact extends React.Component {
                             <div className="card-body">
                                 <p className="card-title">Owner - President & Estimating/Scheduling</p>
                                 <p className="card-text">Phone: 801-731-0717 ext. 1</p>
-                                <p className="card-text" >Email: <a href='mailto:jan@cksrvs.com'>jan@cksrvs.com</a> </p>
+                                <p className="card-text" >Email: <a href='mailto:jan@cksrvs.com' id='emailContact'>jan@cksrvs.com</a> </p>
                             </div>
                         </div>
                     </div>
@@ -206,8 +206,8 @@ class Contact extends React.Component {
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
                             <div className="card-header"><strong>Office and Projects Assistant</strong> <br /> Colette Smith</div>
                             <div className="card-body">
-                                <p className="card-text">Phone: 801-731-0717 ext 2 (receptionist)</p>
-                                <p className="card-text" >Email: <a href='mailto:csmith@cksrvs.com'>csmith@cksrvs.com</a> </p>
+                                <p className="card-text" style={{ paddingTop: '20px' }}>Phone: 801-731-0717 ext 2 (receptionist)</p>
+                                <p className="card-text" >Email: <a href='mailto:csmith@cksrvs.com' id='emailContact'>csmith@cksrvs.com</a> </p>
                             </div>
                         </div>
                     </div>
@@ -215,8 +215,8 @@ class Contact extends React.Component {
                         <div className="card border-dark mb-3" style={{ maxWidth: '18rem' }}>
                             <div className="card-header"> <strong>Accounting</strong><br /> AR & AP</div>
                             <div className="card-body">
-                                <p className="card-text">Phone: 801-731-0717</p>
-                                <p className="card-text" >Email: <a href='mailto:ap@cksrvs.com'>ap@cksrvs.com</a></p>
+                                <p className="card-text" style={{paddingTop: '20px'}}>Phone: 801-731-0717</p>
+                                <p className="card-text" >Email: <a href='mailto:ap@cksrvs.com' id='emailContact'>ap@cksrvs.com</a></p>
                             </div>
                         </div>
                     </div>
