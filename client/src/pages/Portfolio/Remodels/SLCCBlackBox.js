@@ -1,10 +1,10 @@
 import React from 'react';
 
-const WendeyRestaurants = () => {
+const SLCCBlackBox = () => {
     return (
         <div>
 
         </div>
     )
 }
-export default WendeyRestaurants;
+export default SLCCBlackBox;

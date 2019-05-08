@@ -1,10 +1,10 @@
 import React from 'react';
 
-const WendeyRestaurants = () => {
+const AshGrove = () => {
     return (
         <div>
 
         </div>
     )
 }
-export default WendeyRestaurants;
+export default AshGrove;
