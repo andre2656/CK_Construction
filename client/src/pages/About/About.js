@@ -10,7 +10,7 @@ class About extends React.Component {
     }
     render(){
         return(
-            <div>
+            <div id= 'aboutPage'>
                 <Router>
                     <Nav />
                     <Route exact path="/History" component={History} />

@@ -58,6 +58,38 @@ class Contact extends React.Component {
             <div className='container'>
                 <br />
                 <br />
+                <div className='row' id='formContact'>
+                    <div className='col-md-12'>
+                        <form id='form'>
+                            <h3 id='formHeadingContact'>Quick Contact</h3>
+                            <br />
+                            <div className='row'>
+                                <div className='col-md-1'></div>
+                                <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
+                                <div className='col-md-2'></div>
+                                <input className='col-md-4' id='inputContact' name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
+                                <div className='col-md-1'></div>
+                            </div>
+                            <br /><br />
+                            <div className='row'>
+                                <div className='col-md-1'></div>
+                                <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
+                                <div className='col-md-2'></div>
+                                <input className='col-md-4' id='inputContact' name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
+                                <div className='col-md-1'></div>
+                            </div>
+                            <br /><br /><br />
+                            <div className='row'>
+                                <div className='col-md-1'></div>
+                                <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
+                                <div className='col-md-4'><button type='submit' id="submitContact" onClick={this.handleSubmit}><h4 id='contactSubmit'>Submit</h4></button></div>
+                            </div>
+                            <br /><br />
+
+                            <br /><br />
+                        </form>
+                    </div>
+                </div>
                 <div className='row' id="pagetitleContact">
                     <div className='col-md-3'></div>
                     <h3 id='pageTitleContact' className='col-md-6'><strong>CK Construction & Service Corp</strong></h3>
@@ -94,38 +126,7 @@ class Contact extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className='row' id='formContact'>
-                    <div className='col-md-12'>
-                        <form id='form'>
-                            <h3 id='formHeadingContact'>Quick Contact</h3>
-                            <br />
-                            <div className='row'>
-                                <div className='col-md-1'></div>
-                                <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Name' onChange={this.nameOnChange} />
-                                <div className='col-md-2'></div>
-                                <input className='col-md-4' id='inputContact' name='Email' type='email' placeholder='Email' onChange={this.emailOnChange} />
-                                <div className='col-md-1'></div>
-                            </div>
-                            <br /><br />
-                            <div className='row'>
-                                <div className='col-md-1'></div>
-                                <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
-                                <div className='col-md-2'></div>
-                                <input className='col-md-4' id='inputContact' name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
-                                <div className='col-md-1'></div>
-                            </div>
-                            <br /><br /><br />
-                            <div className='row'>
-                                <div className='col-md-1'></div>
-                                <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
-                                <div className='col-md-4'><button type='submit' id="submitContact" onClick={this.handleSubmit}><h4>Submit</h4></button></div>
-                            </div>
-                            <br /><br />
-
-                            <br /><br />
-                        </form>
-                    </div>
-                </div>
+               
 
                 <div className='row' id='titleRowContact'>
                     <div className='col-md-12'>

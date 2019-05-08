@@ -56,7 +56,7 @@ video{
     position: relative;
     z-index: 2;
     border: solid 10px #1c1e25;
-    border-radius: 5px;
+    border-radius: 15px;
 
 }
 #openText{
@@ -129,7 +129,7 @@ video{
 #textareaContact{
     border: none;
     border: 5px solid #1c1e25;;
-    border-top: solid 4px #00599c;
+    border-top: solid 4px ;
     border-radius: 5px;
     text-align: left;
     background-color: white;
@@ -140,14 +140,22 @@ video{
     font-size: 16px;
 }
 #submitContact{
-    border: #1c1e25 4px solid;
+    border: #1c1e25 6px solid;
     color: #1c1e25;
     padding-top: 10px;
-    border-radius: 50px;
+    border-radius: 8px;
     margin-top: 12%;
     margin-right: 20%;
-    
-
+}
+#submitContact:hover{
+    color: red;
+    text-decoration: underline;
+    outline: none;
+    background-color: #00599c;
+}
+#contactSubmit{
+    font-size: 25px;
+    padding: 0px
 }
 #formContact{
     background-color: white;
@@ -235,4 +243,10 @@ video{
 #carouselButtonsHome{
     height: 30px;
     width: 30px;
+}
+#aboutPage{
+    margin-bottom: 700px;
+}
+.page:active{
+    color: red;
 }
