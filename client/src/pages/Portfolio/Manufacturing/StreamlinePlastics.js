@@ -1,7 +1,7 @@
 import React from 'react';
 
 const StreamlinePlastics = () => {
-    return(
+    return (
         <div>
             <div className='container'>
                 <div className='row'>
@@ -11,7 +11,7 @@ const StreamlinePlastics = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            A 25,200 sf multiuse facility housing manufacturing, warehouse, and office operations.
                         </p>
                     </div>
                     <div className='col-md-4'>

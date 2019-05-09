@@ -11,7 +11,8 @@ const BakerCorp = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This facility will be used to repair heavy equipment and trucks that pull large tanks that hold any type of liquids.
+                             It has office space and bathrooms and is also a design / build project.
                         </p>
                     </div>
                     <div className='col-md-4'>

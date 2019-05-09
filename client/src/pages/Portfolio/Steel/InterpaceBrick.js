@@ -11,7 +11,8 @@ const InterpaceBrick = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This is a pre Engineered building that we erected over an existing building which remained operating while we built the structure.
+                            The building was then demolished after we finished the project.
                         </p>
                     </div>
                     <div className='col-md-4'>

@@ -11,7 +11,7 @@ const HobbyLobby = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            Constructed during the winter, a ground heater was required for soil and concrete protection.
                         </p>
                     </div>
                     <div className='col-md-4'>

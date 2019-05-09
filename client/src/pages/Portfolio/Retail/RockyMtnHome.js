@@ -11,7 +11,10 @@ const RockyMtnHome = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This project started out as a burned down conventional building.
+                            We used some existing foundations and poured new where needed.
+                            The building is a Butler, with a MR-24 roof system it is located in Pinedale Wyoming.
+                            The inside is a show room and a small stock room.
                         </p>
                     </div>
                     <div className='col-md-4'>

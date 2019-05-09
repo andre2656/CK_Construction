@@ -11,7 +11,7 @@ const DarrenKlienTile = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This project is a butler steel and roof system incorporated with pre cast walls in the manufacturing area and 2x6 walls in the office and show room area.
                         </p>
                     </div>
                     <div className='col-md-4'>

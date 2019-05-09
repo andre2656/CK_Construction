@@ -11,7 +11,8 @@ const RubyRiver = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            A conventional Design Build project in Saint George UT.
+                            We used part of an existing structure and incorporated the new design.
                         </p>
                     </div>
                     <div className='col-md-4'>

@@ -11,7 +11,7 @@ const LovendahiRailServiceCenter = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            Mezzanines-UTA Lovendahl Rail Service Center, Midvale, Utah.
                         </p>
                     </div>
                     <div className='col-md-4'>

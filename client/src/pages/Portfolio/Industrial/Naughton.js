@@ -11,7 +11,8 @@ const Naughton = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            Located near Kemmerer Wyoming sharing the same site as the coal fired power plant.
+                            It is a Design/build project that has 3 bays to repair heavy equipment, like a D 10 and 1 bay for small repairs, office and restrooms along with storage over the offices.
                         </p>
                     </div>
                     <div className='col-md-4'>
