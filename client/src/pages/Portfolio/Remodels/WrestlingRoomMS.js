@@ -11,7 +11,7 @@ const WrestlingRoomMS = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            Project located in Saratoga, Wyoming.
                         </p>
                     </div>
                     <div className='col-md-4'>

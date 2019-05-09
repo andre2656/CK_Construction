@@ -12,6 +12,7 @@ const StrategicStaffing = () => {
                         </h4>
                         <p id='textPortfolio'>
 
+                            Tenant improvement for AmCan Properties LLC in Ogden, Utah.
                         </p>
                     </div>
                     <div className='col-md-4'>

@@ -11,7 +11,8 @@ const Homesteader = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            The Homesteader project spans more than 10 acres and includes picnic structures, walking paths,
+                            renovations to the park's east-end road system, irrigation, landscaping, new rv areas, parking lots, and exterior lighting.
                         </p>
                     </div>
                     <div className='col-md-4'>

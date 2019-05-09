@@ -11,7 +11,7 @@ const JCPenney = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This project involved working in an open JC Penny’s requiring are crews to work graveyard shifts.
                         </p>
                     </div>
                     <div className='col-md-4'>

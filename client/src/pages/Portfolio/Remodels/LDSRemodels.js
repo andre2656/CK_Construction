@@ -11,7 +11,9 @@ const LDSRemodels = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            These projects vary between simple upgrades to rooms in existing facilities to
+                            complete additions to the existing facilities. They include new baptismal fonts,
+                            Relief Society rooms, Bishop offices and landscaping. All are done while the existing facility is being used.
                         </p>
                     </div>
                     <div className='col-md-4'>

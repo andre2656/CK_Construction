@@ -11,7 +11,8 @@ const Pinedale = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            Reconfiguration and interior remodeling of approx. 5,800 sq ft of the 8,000 sq ft building.
+                            Construction was done in two phases to accomodate occupants.
                         </p>
                     </div>
                     <div className='col-md-4'>

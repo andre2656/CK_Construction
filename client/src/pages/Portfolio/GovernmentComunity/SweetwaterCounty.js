@@ -11,7 +11,7 @@ const SweetwaterCounty = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            The work included remodeling and an addition to the existing facility.
                         </p>
                     </div>
                     <div className='col-md-4'>

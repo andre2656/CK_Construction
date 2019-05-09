@@ -11,7 +11,7 @@ const CombinedCom = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            5,375 sq. ft. rmodel of the Combined Communcations Center in Green River, Wyoming.
                         </p>
                     </div>
                     <div className='col-md-4'>

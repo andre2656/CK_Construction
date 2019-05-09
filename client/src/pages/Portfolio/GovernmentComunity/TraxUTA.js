@@ -11,7 +11,7 @@ const TraxUTA = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            UTA Trax Station at Rice Eccles Stadium.
                         </p>
                     </div>
                     <div className='col-md-4'>

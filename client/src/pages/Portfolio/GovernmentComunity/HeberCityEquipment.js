@@ -11,7 +11,9 @@ const HeberCity = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This project consised of the design and construction of a completed snow removal equipment building, 
+                            including the steel building package and installation, concrete floors, foundations, footings, insulation, doors, 
+                            heating systems, air conditioning systems, office structures, finishes and bathrooms.
                         </p>
                     </div>
                     <div className='col-md-4'>

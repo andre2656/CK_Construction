@@ -11,7 +11,9 @@ const LoganRiver = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            The project consisted of the renovation of the existing clubhouse.
+                            Construction consisted of wood frame and steel beams/columns, wood composite siding, aluminum windows,
+                            single-ply roof, new mechanical and electrical system, and minor landscaping.  Located in Logan, Utah.
                         </p>
                     </div>
                     <div className='col-md-4'>

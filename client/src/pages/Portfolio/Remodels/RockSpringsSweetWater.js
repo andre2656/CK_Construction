@@ -11,7 +11,7 @@ const RockSprings = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            A new building for storage of the snow removal equipment at the Rock Springs-Sweetwater County Airport.
                         </p>
                     </div>
                     <div className='col-md-4'>

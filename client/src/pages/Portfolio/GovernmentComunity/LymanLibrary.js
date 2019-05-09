@@ -11,7 +11,9 @@ const LymanLibrary = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            The Lyman Library was completed in July 2010.  Based on design quality and innovation, craftsmanship,
+                            and its contribution to the community,
+                            the Lyman Library was the Gold winner of the Best of 2010 Awards for Outstanding Cultural Project.
                         </p>
                     </div>
                     <div className='col-md-4'>

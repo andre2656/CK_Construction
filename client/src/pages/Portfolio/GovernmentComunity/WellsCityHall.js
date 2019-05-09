@@ -11,7 +11,7 @@ const WellsCity = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            City Hall building of approximately 7,680 sq. ft.
                         </p>
                     </div>
                     <div className='col-md-4'>

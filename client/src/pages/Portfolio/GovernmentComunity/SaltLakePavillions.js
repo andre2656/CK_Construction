@@ -11,7 +11,7 @@ const SaltLakePavillions = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            The upgrade of 3 existing pavilions for SLC.
                         </p>
                     </div>
                     <div className='col-md-4'>

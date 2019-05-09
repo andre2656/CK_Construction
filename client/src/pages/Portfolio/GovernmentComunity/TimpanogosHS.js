@@ -11,7 +11,7 @@ const TimpanogosHS = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            A new head house and greenhouse for Alpine School District. Completed 3 weeks ahead of schedule.
                         </p>
                     </div>
                     <div className='col-md-4'>

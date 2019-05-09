@@ -11,7 +11,8 @@ const ManilaFirestation = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This project included construction of a 90 ft by 60 ft pre-fabricated steel building with 
+                            1000 sq ft of office space and 21,000 sq ft of site work grading and asphalt surfacing.
                         </p>
                     </div>
                     <div className='col-md-4'>

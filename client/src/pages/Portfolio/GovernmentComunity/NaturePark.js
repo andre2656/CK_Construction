@@ -11,7 +11,9 @@ const NaturePark = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            This project included tennis courts basketball courts and play ground equipment.
+                            It is located in the same complex as the city office building, and a private elementary school requiring
+                            added public protection.
                         </p>
                     </div>
                     <div className='col-md-4'>

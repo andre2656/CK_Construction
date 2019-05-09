@@ -11,7 +11,10 @@ const SLCCPhotoLab = () => {
 
                         </h4>
                         <p id='textPortfolio'>
-
+                            The work included selective demolition of interior gypsum board and metal stud partitions,
+                            interior hollow metal frame and door removal, new openings in existing interior walls, existing millwork removal,
+                            existing interior floor finish and adhesive removal, existing suspended acoustical ceiling system removal, electrical
+                            and mechanical demolition, and interior tenant improvement construction to existing rooms and areas.
                         </p>
                     </div>
                     <div className='col-md-4'>
