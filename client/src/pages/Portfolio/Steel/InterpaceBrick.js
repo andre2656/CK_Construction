@@ -5,10 +5,9 @@ const InterpaceBrick = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Interpace Brick
                         </h4>
                         <p id='textPortfolio'>
                             This is a pre Engineered building that we erected over an existing building which remained operating while we built the structure.

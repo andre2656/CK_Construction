@@ -5,10 +5,9 @@ const Pinedale = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Old Pinedale Clinic Renovation - WY
                         </h4>
                         <p id='textPortfolio'>
                             Reconfiguration and interior remodeling of approx. 5,800 sq ft of the 8,000 sq ft building.

@@ -5,14 +5,13 @@ const SandyFireStation = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Sandy Fire Station
                         </h4>
                         <p id='textPortfolio'>
                             This fire station included demolition the old fire station.
-                            The project includes 2 bays for the fire trucks,
+       Sandy Fire Station                     The project includes 2 bays for the fire trucks,
                             living quarters for the firemen full kitchen and landscape.
                         </p>
                     </div>

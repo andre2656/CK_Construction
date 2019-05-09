@@ -5,10 +5,9 @@ const IndustrialContainer = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Industrial Container
                         </h4>
                         <p id='textPortfolio'>
                             A hybrid building using Gem Steel, Bar Joists and putting a MR-24 roof system over top.

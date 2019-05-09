@@ -5,10 +5,9 @@ const SMESteel = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            SME Steel
                         </h4>
                         <p id='textPortfolio'>
                             This is a fabrication shop, with 2 overhead bridge cranes and multiple stationary cranes used to flip parts.

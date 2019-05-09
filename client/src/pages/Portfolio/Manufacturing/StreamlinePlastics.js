@@ -5,10 +5,9 @@ const StreamlinePlastics = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Streamline Plastics
                         </h4>
                         <p id='textPortfolio'>
                             A 25,200 sf multiuse facility housing manufacturing, warehouse, and office operations.

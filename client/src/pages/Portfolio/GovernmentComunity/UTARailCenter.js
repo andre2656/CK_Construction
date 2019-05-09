@@ -5,17 +5,16 @@ const UTARail = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            UTA Rail Service Center
                         </h4>
                         <p id='textPortfolio'>
                             PHASE ONE - Demolish existing facilities cleanly and precisely to make way for the new construction.
                             Provide shoring as needed to retain with integrity all facilities. Construction of a new reinforced concrete pitcomplete
                             with rails, guardrails, stairways , lighting, ventilation, ramps, and all other required features to be ready to have
                             installed a new dual axle wheel truing machine.
-                            
+
                             PHASE TWO – Construct a double track undercarriage access pit. Demolish existing facilities cleanly and
                             precisely to make way for the new construction. Provide shoring as needed to retain with integrity all
                             facilities adjacent to the new work. Investigate and provide for relocation/relocating/rerouting of electrical

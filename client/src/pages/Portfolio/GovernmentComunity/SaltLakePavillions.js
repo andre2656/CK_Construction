@@ -5,10 +5,9 @@ const SaltLakePavillions = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Salt lake City Pavillions
                         </h4>
                         <p id='textPortfolio'>
                             The upgrade of 3 existing pavilions for SLC.

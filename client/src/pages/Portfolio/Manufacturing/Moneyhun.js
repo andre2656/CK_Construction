@@ -5,10 +5,9 @@ const Moneyhun = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Moneyhun Heavy Fab
                         </h4>
                         <p id='textPortfolio'>
                             Located in Rock Springs, Wyoming, this building is used to fabricate the equipment that is used in the gas industry to burn off the poison gases that are a byproduct in the gas extraction process.

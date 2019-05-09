@@ -5,10 +5,9 @@ const UTACenteral = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            UTA Central Rest Station
                         </h4>
                         <p id='textPortfolio'>
                             This project consisted of construction of an embankment and foundation for a pre-manufactured building, including a new water and sewer line.

@@ -5,10 +5,9 @@ const AiderNess = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Arlen Ness
                         </h4>
                         <p id='textPortfolio'>
                             This is where Arlen Ness builds his motorcycle creations.  With a combination of pre-engineered steel, and conventional steel, the front entry is a one of a kind.

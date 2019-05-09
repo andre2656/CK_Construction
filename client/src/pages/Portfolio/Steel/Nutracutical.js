@@ -5,10 +5,9 @@ const Nutracutical = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Nutracutical
                         </h4>
                         <p id='textPortfolio'>
                             This project consisted of structural upgrades to an existing 50 year old building, concrete in fills and then sheeting the building with these pre formed panels and laying them horizontal.

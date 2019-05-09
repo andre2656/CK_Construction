@@ -5,10 +5,9 @@ const FortBliss = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Fort Bliss
                         </h4>
                         <p id='textPortfolio'>
                             50,000 sf Nucor PEMB complete with a 15,000 mezzanine, bridge crane in the shop area, standing seam metal roof, and IMP panels around the exterior.

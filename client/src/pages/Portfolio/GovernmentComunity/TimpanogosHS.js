@@ -5,10 +5,9 @@ const TimpanogosHS = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Timpanogos High School
                         </h4>
                         <p id='textPortfolio'>
                             A new head house and greenhouse for Alpine School District. Completed 3 weeks ahead of schedule.

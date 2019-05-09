@@ -5,10 +5,9 @@ const NewHorizen = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            The New Horizon Complex
                         </h4>
                         <p id='textPortfolio'>
                             The projects was an extensive renovation and retrofit of a former discount store, at approximately 33,000 sq. ft., and site in Evanston, Wyoming.

@@ -5,10 +5,9 @@ const BakerCorp = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Baker Corporation
                         </h4>
                         <p id='textPortfolio'>
                             This facility will be used to repair heavy equipment and trucks that pull large tanks that hold any type of liquids.

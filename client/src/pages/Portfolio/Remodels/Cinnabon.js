@@ -5,13 +5,12 @@ const Cinnabon = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Cinnabon
                         </h4>
                         <p id='textPortfolio'>
-                            Converting an existing space into a Cinnabun. 
+                            Converting an existing space into a Cinnabun.
                             We worked through the night to minimize noise & dust to neighboring business.
                         </p>
                     </div>

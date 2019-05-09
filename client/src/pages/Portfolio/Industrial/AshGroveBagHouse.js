@@ -5,10 +5,9 @@ const AshGrove = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Ash Grove Bag House
                         </h4>
                         <p id='textPortfolio'>
                             The Ashgrove bag house was constructed while the plant was shut down, requiring us to put 50 plus people working 24/7 for 12 weeks.

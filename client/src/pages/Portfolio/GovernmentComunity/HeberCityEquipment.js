@@ -5,14 +5,13 @@ const HeberCity = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Heber City Airport Snow Removal Equipment Building
                         </h4>
                         <p id='textPortfolio'>
-                            This project consised of the design and construction of a completed snow removal equipment building, 
-                            including the steel building package and installation, concrete floors, foundations, footings, insulation, doors, 
+                            This project consised of the design and construction of a completed snow removal equipment building,
+                            including the steel building package and installation, concrete floors, foundations, footings, insulation, doors,
                             heating systems, air conditioning systems, office structures, finishes and bathrooms.
                         </p>
                     </div>

@@ -5,10 +5,9 @@ const RockSprings = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Rock Springs Sweetwater Airport
                         </h4>
                         <p id='textPortfolio'>
                             A new building for storage of the snow removal equipment at the Rock Springs-Sweetwater County Airport.

@@ -5,10 +5,9 @@ const WolfPeak = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Wolf Peak
                         </h4>
                         <p id='textPortfolio'>
                             This project is a Butler Building with an MR 24 Standing seam roof.

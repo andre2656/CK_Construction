@@ -5,10 +5,9 @@ const EscalanteHeritage = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Escalante Heritage Center
                         </h4>
                         <p id='textPortfolio'>
                             Phase I of the Escalante Heritage/Hole-in-the-Rock Center and Museum.

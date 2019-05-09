@@ -5,10 +5,9 @@ const EscogndidoSchool = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Escondido School
                         </h4>
                         <p id='textPortfolio'>
                             Pre engineered building, with a standing seam roof consisting of 2 levels of school rooms plus a full size gym.

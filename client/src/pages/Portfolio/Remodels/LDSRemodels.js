@@ -5,10 +5,9 @@ const LDSRemodels = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            LDS Church
                         </h4>
                         <p id='textPortfolio'>
                             These projects vary between simple upgrades to rooms in existing facilities to

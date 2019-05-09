@@ -5,10 +5,9 @@ const Homesteader = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-3'></div>
-                    <div className='col-md-5'>
+                    <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
-
+                            Homesteader Park Rest Area
                         </h4>
                         <p id='textPortfolio'>
                             The Homesteader project spans more than 10 acres and includes picnic structures, walking paths,
