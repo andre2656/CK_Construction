@@ -7,15 +7,15 @@ const OgdenCityCenter = () => {
                 <div className='row'>
                     <div className='col-md-3'></div>
                     <div className='col-md-5'>
-                    <h4>
-                        
+                    <h4 id= 'titlePortfolio'>
+
                     </h4>
-                    <p>
+                    <p id= 'textPortfolio'>
 
                     </p>
                     </div>
                     <div className='col-md-4'>
-                    <img></img>
+                    <img id='imgPortfolio' src=''></img>
                     </div>
                 </div>
             </div>
