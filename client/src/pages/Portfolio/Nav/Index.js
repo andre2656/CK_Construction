@@ -3,35 +3,18 @@ import { NavLink } from 'react-router-dom';
 import { withRouter } from "react-router";
 
 function NavBar() {
-
     return (
-        <div>
-            {/* {!user && <NavLink to="/RegistrationPage" className="navlink" activeClassName="selected">Registration Page</NavLink>}
-      {!user && <NavLink to="/LoginPage" className="navlink" activeClassName="selected">Login Page</NavLink>}
-
-      {user && <NavLink to="/UserHomePage" className="navlink" activeClassName="selected">User Home Page</NavLink>}
-  {user && <a href="#" className="navlink" onClick={logoutCheck}>Logout</a>}*/}
-
-            <div id="navbar">
-                <div className='row'>
-                    <NavLink id='page' to="Home" activeClassName="selected">CK Construction</NavLink><strong>|</strong>
-                    <NavLink id='page' to="About" activeClassName="selected">About</NavLink><strong>|</strong>
-                    <NavLink id='page' to="Portfolio" activeClassName="selected">Portfolio</NavLink><strong>|</strong>
-                    <div className="dropdown show">
-                        <div id='page' className="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"> Divisions </div>
-                        <div id='page' className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <NavLink className="dropdown-item" to="Steel-Division" activeClassName="selected">Steel Division</NavLink>
-                            <NavLink className="dropdown-item" to="Service-Construction" activeClassName="selected">Service/Construction </NavLink>
-                        </div>
-                    </div><strong>|</strong>
-                    <NavLink id='page' to="Services" activeClassName="selected">Services</NavLink><strong>|</strong>
-                    <NavLink id='page' to="Contact" activeClassName="selected">Contact</NavLink>
-                </div>
-            </div>
+        <div className= 'portfolioNavBar'>
+            <NavLink id='portfolioNav' to="ProjectPortfolio" activeClassName="selected">Project Portfolio</NavLink> <br/>
+            <NavLink id='portfolioNav' to="Manufacturing-Office" activeClassName="selected">Manufacturing / Office</NavLink><br />
+            <NavLink id='portfolioNav' to="Retail" activeClassName="selected">Retail</NavLink><br />
+            <NavLink id='portfolioNav' to="Industrial" activeClassName="selected">Industrial</NavLink><br />
+            <NavLink id='portfolioNav' to="Steel" activeClassName="selected">Steel </NavLink><br />
+            <NavLink id='portfolioNav' to="Goverment-Community" activeClassName="selected">Goverment / Community</NavLink><br />
+            <NavLink id='portfolioNav' to="Remodels" activeClassName="selected">Remodels</NavLink><br />
         </div>
     )
 }
-
 // By wrapping this component in `withRouter`, we get access to props.history
 //  https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/withRouter.md
 export default withRouter(NavBar);
