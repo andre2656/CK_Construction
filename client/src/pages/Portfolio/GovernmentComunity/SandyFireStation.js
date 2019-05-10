@@ -11,7 +11,7 @@ const SandyFireStation = () => {
                         </h4>
                         <p id='textPortfolio'>
                             This fire station included demolition the old fire station.
-       Sandy Fire Station                     The project includes 2 bays for the fire trucks,
+                            The project includes 2 bays for the fire trucks,
                             living quarters for the firemen full kitchen and landscape.
                         </p>
                     </div>

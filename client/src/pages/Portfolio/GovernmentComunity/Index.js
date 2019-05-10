@@ -19,7 +19,8 @@ import Timpanogos from './TimpanogosHS';
 import UDOT from  './UDOTGreendale';
 import SandyFire from './SandyFireStation';
 import Pavillions from './SaltLakePavillions';
-import UnionStation from './UnionStation'
+import UnionStation from './UnionStation';
+import Nav from '../Nav/Index'
 export default class Govt extends React.Component {
     state= {
 
@@ -29,10 +30,7 @@ export default class Govt extends React.Component {
         return(
             <div id= 'GovtPortfolio' className='container'>
                 <div className= 'row'>
-                    <div className= 'col-md-2'>
-                    
-                    </div>
-                    <div className='col-md-9'>
+                    <div className='col-md-12'>
                         <Sweetwater/>
                         <CombinedCom/>
                         <UTACentral/>
@@ -55,7 +53,6 @@ export default class Govt extends React.Component {
                         <Pavillions/>
                         <UnionStation/>
                     </div>
-                    <div className='col-md-1'></div>
                 </div>
             </div>
         )

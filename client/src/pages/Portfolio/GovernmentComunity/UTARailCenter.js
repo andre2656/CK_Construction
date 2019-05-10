@@ -5,6 +5,9 @@ const UTARail = () => {
         <div>
             <div className='container'>
                 <div className='row'>
+                    <div className='col-md-4'>
+                        <img id='imgPortfolio' src=''></img>
+                    </div>
                     <div className='col-md-8'>
                         <h4 id='titlePortfolio'>
                             UTA Rail Service Center
@@ -22,9 +25,6 @@ const UTARail = () => {
                             undercarriage access pit complete with rails, guardrails, stairways, lighting, ventilation, ramps, and all other
                             required features.
                         </p>
-                    </div>
-                    <div className='col-md-4'>
-                        <img id='imgPortfolio' src=''></img>
                     </div>
                 </div>
             </div>
