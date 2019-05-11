@@ -252,3 +252,65 @@ video{
 #aboutPage{
     margin-bottom: 700px;
 }
+#row {
+    width: 100%;
+    margin-top: 100px;
+}
+.portfolioNavBar{
+    text-align: left
+}
+#textPortfolio{
+    text-align: justify;
+    min-height: 200px;
+    max-height: 300px;
+    width: 90%;
+    max-width: 800px;
+    overflow: scroll;
+    background-color: white;
+     margin-left: 45px;
+     margin-right: 45px;
+     border: 5px solid black;
+     padding: 10px
+}
+#titlePortfolio{
+    margin-top: 25px;
+
+}
+#GovtRow{
+    width: 100%
+}
+#imgPortfolio{
+    height: 300px;
+    margin-top: 10%
+}
+#PortfolioText{
+    background-color: white;
+    padding: 25px;
+    border: #1c1e25 20px solid;
+}
+#PortfolioContainer{
+    margin: auto;
+    padding-top: 50px;
+    margin-right: 25px
+}
+#PortfolioTitle{
+    margin-bottom: 25px;
+    font-weight: bold
+}
+#portfolioNavBar{
+    background-color: white;
+    height: auto;
+    width: 125px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left:25%;
+    border: #1c1e25 5px solid;
+}
+#portfolioNav{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+#PortfolioImg{
+    background-color: #1c1e25;
+    border: #1c1e25 5px solid;
+}
