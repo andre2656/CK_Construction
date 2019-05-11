@@ -5,7 +5,7 @@ const Naughton = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-8'>
+                    <div className='col-md-8' id='PortfolioText'>
                         <h4 id='titlePortfolio'>
                             Naughton
                         </h4>

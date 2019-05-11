@@ -3,12 +3,11 @@ import React from 'react';
 const UTARail = () => {
     return (
         <div>
-            <div className='container'>
                 <div className='row'>
-                    <div className='col-md-4'>
-                        <img id='imgPortfolio' src=''></img>
+                    <div className='col-md-4' id='PortfolioImg'>
+                        <img id='imgPortfolio' src='../CK_Images/ImgTemplate.jpg'></img>
                     </div>
-                    <div className='col-md-8'>
+                    <div className='col-md-8' id='PortfolioText'>
                         <h4 id='titlePortfolio'>
                             UTA Rail Service Center
                         </h4>
@@ -27,7 +26,6 @@ const UTARail = () => {
                         </p>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }

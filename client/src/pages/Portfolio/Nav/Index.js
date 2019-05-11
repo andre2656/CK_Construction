@@ -4,14 +4,28 @@ import { withRouter } from "react-router";
 
 function NavBar() {
     return (
-        <div className= 'portfolioNavBar'>
-            <NavLink id='portfolioNav' to="ProjectPortfolio" activeClassName="selected">Project Portfolio</NavLink> <br/>
-            <NavLink id='portfolioNav' to="Manufacturing-Office" activeClassName="selected">Manufacturing / Office</NavLink><br />
-            <NavLink id='portfolioNav' to="Retail" activeClassName="selected">Retail</NavLink><br />
-            <NavLink id='portfolioNav' to="Industrial" activeClassName="selected">Industrial</NavLink><br />
-            <NavLink id='portfolioNav' to="Steel" activeClassName="selected">Steel </NavLink><br />
-            <NavLink id='portfolioNav' to="Goverment-Community" activeClassName="selected">Goverment / Community</NavLink><br />
-            <NavLink id='portfolioNav' to="Remodels" activeClassName="selected">Remodels</NavLink><br />
+        <div id= 'portfolioNavBar' className='container'>
+            <div className= 'row'>
+                <NavLink id='portfolioNav' to="Portfolio" activeClassName="selected">Project Portfolio</NavLink> 
+            </div>
+            <div className='row'>
+                <NavLink id='portfolioNav' to="Manufacturing-Office" activeClassName="selected">Manufacturing / Office</NavLink>
+            </div>
+            <div className='row'>
+                <NavLink id='portfolioNav' to="Retail" activeClassName="selected">Retail</NavLink>
+            </div>
+            <div className='row'>
+                <NavLink id='portfolioNav' to="Industrial" activeClassName="selected">Industrial</NavLink>
+            </div>
+            <div className='row'>
+                <NavLink id='portfolioNav' to="Steel" activeClassName="selected">Steel </NavLink>
+            </div>
+            <div className='row'>
+                <NavLink id='portfolioNav' to="Goverment-Community" activeClassName="selected">Goverment / Community</NavLink>
+            </div>
+            <div className='row'>
+                <NavLink id='portfolioNav' to="Remodels" activeClassName="selected">Remodels</NavLink>
+            </div>
         </div>
     )
 }

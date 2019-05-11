@@ -5,7 +5,10 @@ const AshGrove = () => {
         <div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-8'>
+                    <div className='col-md-4'>
+                        <img id='imgPortfolio' src=''></img>
+                    </div>
+                    <div className='col-md-8' id='PortfolioText'>
                         <h4 id='titlePortfolio'>
                             Ash Grove Bag House
                         </h4>
@@ -15,9 +18,6 @@ const AshGrove = () => {
                             We also erected the scrubbing tower and sheeted the building. We also demolished the existing bag house.
                             We had no lost time injuries during this process.
                         </p>
-                    </div>
-                    <div className='col-md-4'>
-                        <img id='imgPortfolio' src=''></img>
                     </div>
                 </div>
             </div>
