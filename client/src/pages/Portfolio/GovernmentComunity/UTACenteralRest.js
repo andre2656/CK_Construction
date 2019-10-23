@@ -4,7 +4,7 @@ const UTACenteral = () => {
     return (
         <div>
                 <div className='row'>
-                    <div className='col-md-8' id='PortfolioText'>
+                    <div className='col-md-7' id='PortfolioText'>
                         <h4 id='titlePortfolio'>
                             UTA Central Rest Station
                         </h4>
@@ -14,7 +14,7 @@ const UTACenteral = () => {
                             At the new site the building was set and secured and all plumbing connections and site improvements were made.
                         </p>
                     </div>
-                    <div className='col-md-4' id='PortfolioImg'>
+                    <div className='col-md-5' id='PortfolioImg'>
                         <img id='imgPortfolio' src='../CK_Images/ImgTemplate.jpg'></img>
                     </div>
                 </div>

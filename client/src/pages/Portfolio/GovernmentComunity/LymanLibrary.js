@@ -4,7 +4,7 @@ const LymanLibrary = () => {
     return (
         <div>
                 <div className='row'>
-                    <div className='col-md-8' id='PortfolioText'>
+                    <div className='col-md-7' id='PortfolioText'>
                         <h4 id='titlePortfolio'>
                             Lyman Library
                         </h4>
@@ -14,7 +14,7 @@ const LymanLibrary = () => {
                             the Lyman Library was the Gold winner of the Best of 2010 Awards for Outstanding Cultural Project.
                         </p>
                     </div>
-                    <div className='col-md-4' id='PortfolioImg'>
+                    <div className='col-md-5' id='PortfolioImg'>
                         <img id='imgPortfolio' src='../CK_Images/ImgTemplate.jpg'></img>
                     </div>
                 </div>

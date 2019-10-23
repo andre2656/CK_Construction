@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-   background-color: #bcbec0;
+   background-color: lightgray;
 }
 .jumbotron{
     background-image: linear-gradient(to bottom, #1c1e25 93%, #00599c 7%);
@@ -262,13 +262,11 @@ video{
 #textPortfolio{
     text-align: justify;
     min-height: 200px;
-    max-height: 300px;
-    width: 90%;
+    max-height: 200px;
+    width: 100%;
     max-width: 800px;
     overflow: scroll;
     background-color: white;
-     margin-left: 45px;
-     margin-right: 45px;
      border: 5px solid black;
      border-radius: 10px;
      padding: 10px
@@ -278,16 +276,18 @@ video{
 
 }
 #GovtRow{
-    width: 100%
+    width: 85%
 }
 #imgPortfolio{
-    height: 300px;
-    margin-top: 10%
+    height: 100%;
+    max-height: 375px;
+    border: #1c1e25 10px solid;
+    border-radius: 5px;
 }
 #PortfolioText{
-    background-color: white;
-    padding: 25px;
+    background-color: lightgray;
     border: #1c1e25 20px solid;
+    margin-bottom: 25px;
 }
 #PortfolioContainer{
     margin: auto;
@@ -312,6 +312,14 @@ video{
     padding-left: 10px;
 }
 #PortfolioImg{
-    background-color: #1c1e25;
-    border: #1c1e25 5px solid;
+    margin-bottom: 25px;
+}
+#PortfolioCard{
+    height: auto;
+}
+#textCardPortfolio{
+    color: black
+}
+#headingOne{
+    min-width: 800px;
 }

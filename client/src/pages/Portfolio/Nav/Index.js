@@ -4,27 +4,27 @@ import { withRouter } from "react-router";
 
 function NavBar() {
     return (
-        <div id= 'portfolioNavBar' className='container'>
-            <div className= 'row'>
+        <div id= 'portfolioNavBar' className='container' style= {{height: 400, width: 190}}>
+            <div className= 'row' style={{height: 60}}>
                 <NavLink id='portfolioNav' to="Portfolio" activeClassName="selected">Project Portfolio</NavLink> 
             </div>
-            <div className='row'>
-                <NavLink id='portfolioNav' to="Manufacturing-Office" activeClassName="selected">Manufacturing / Office</NavLink>
+            <div className='row' style={{height: 60}}>
+                <NavLink id='portfolioNav' to="Manufacturing-Office" activeClassName="selected">Manufacturing / Office</NavLink> 
             </div>
-            <div className='row'>
-                <NavLink id='portfolioNav' to="Retail" activeClassName="selected">Retail</NavLink>
+            <div className='row' style={{height: 60}}>
+                <NavLink id='portfolioNav' to="Retail" activeClassName="selected">Retail</NavLink> 
             </div>
-            <div className='row'>
-                <NavLink id='portfolioNav' to="Industrial" activeClassName="selected">Industrial</NavLink>
+            <div className='row' style={{height: 60}}>
+                <NavLink id='portfolioNav' to="Industrial" activeClassName="selected">Industrial</NavLink> 
             </div>
-            <div className='row'>
-                <NavLink id='portfolioNav' to="Steel" activeClassName="selected">Steel </NavLink>
+            <div className='row' style={{height: 60}}>
+                <NavLink id='portfolioNav' to="Steel" activeClassName="selected">Steel </NavLink> 
             </div>
-            <div className='row'>
-                <NavLink id='portfolioNav' to="Goverment-Community" activeClassName="selected">Goverment / Community</NavLink>
-            </div>
-            <div className='row'>
-                <NavLink id='portfolioNav' to="Remodels" activeClassName="selected">Remodels</NavLink>
+            {/* <div className='row' style={{height: 60}}>
+                <NavLink id='portfolioNav' to="Goverment-Community" activeClassName="selected">Goverment / Community</NavLink> 
+            </div> */}
+            <div className='row' style={{height: 60}}>
+                <NavLink id='portfolioNav' to="Remodels" activeClassName="selected">Remodels</NavLink> 
             </div>
         </div>
     )

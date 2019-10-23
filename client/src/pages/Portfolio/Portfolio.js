@@ -5,8 +5,8 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div>
-                <div className='container'>
-                    <div className='row' id= 'row'>
+                <div className='container' style={{ height: 600,}}>
+                    <div className='row' id= 'row' >
                         <div className='col-md-3'>
                             <Nav />
                         </div>
